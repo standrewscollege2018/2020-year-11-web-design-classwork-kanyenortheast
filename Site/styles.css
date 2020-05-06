@@ -1,0 +1,34 @@
+/* My styplesheet
+
+/* Set the background colour */
+body {
+  background-color: #1f0766;
+  color: rgb(255, 255, 255);
+  font-family: arial;
+}
+/* Set h1  and h2 format */
+h1 {
+  color : #eb4979;
+  font-family: sans-serif;
+}
+/* Formatting links */
+
+a {
+  color: #8cd9f5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #beeafa;
+}
+*{
+  padding: 9px;
+  margin: 3px;
+}
+
+ul{
+  margin: 5px 5px 15px 15px;
+  font-family: cursive;
+  list-style-type: square;
+}
