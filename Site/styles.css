@@ -32,3 +32,11 @@ ul{
   font-family: cursive;
   list-style-type: square;
 }
+
+
+.overal {
+margin-top: 30px;
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap: 60px
+}

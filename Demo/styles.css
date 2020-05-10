@@ -1,0 +1,38 @@
+/* Grid styles */
+
+/* Banner styles */
+.banner-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.logo {
+  background-color: rgb(66, 200, 245);
+  padding: 20px
+}
+.navbar {
+  background-color: rgb(255,50, 65);
+  text-align: right;
+  padding: 20px
+}
+
+/* Cards stuff */
+
+.content-container {
+  margin-top: 50px;
+  display:grid;
+  grid-template-columns: 1fr .35fr 1fr;
+  grid-column-gap: 45px;
+}
+
+.card {
+  border: 10px solid rgb(12, 34, 56);
+  border-radius: 20px;
+  padding: 0px;
+  overflow: hidden;
+}
+/*images*/
+
+.card >img {
+  max-width: 100%
+  height: auto;
+}
