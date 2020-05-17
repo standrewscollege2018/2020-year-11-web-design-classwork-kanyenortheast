@@ -35,8 +35,23 @@ ul{
 
 
 .overal {
-margin-top: 30px;
-display:grid;
-grid-template-columns: 1fr 1fr;
-grid-column-gap: 60px
+  margin-top: 30px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 60px
+}
+
+.container {
+  margin-top: 50px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 45px
+}
+
+.location {
+  border: 5px solid #ffffff;
+  border-radius: 5px;
+  padding: 0px;
+  overflow: hidden;
+
 }
