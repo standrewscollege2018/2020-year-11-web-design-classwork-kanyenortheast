@@ -14,11 +14,6 @@
     } else {
       echo "Invalid credentials, try again";
     }
-
-
-
-
-
     ?>
 
   </body>
